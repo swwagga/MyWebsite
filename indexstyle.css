@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 5px;
+}
+
+body {
+    background-color: lightslategray;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    padding: 0rem 3rem;
+    opacity: 0.8;
+    text-decoration: line-through;
+    align-items: inline;
+    font-size: larger;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    opacity: 1;
+}
+
+.logo {
+    color: white;
+    font-size: 250%;
+    padding: 0 3rem;
+    text-decoration: 1px line-through;
+}
+
+.extra {
+    height: 2px;
+    background-color: lightgray;
+}
+
+.main {
+    height: 470px;
+    background-image: url("main-image.jpg");
+    padding: 5rem;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.main p {
+    color: white;
+    font-weight: bold;
+    font-size: 200%;
+    opacity: 0.1;
+    padding: 0 0;
+    position: absolute;
+    left: 27.4%;
+    margin: 10px 0;
+}
+
+.main p:hover {
+    opacity: 1;
+}
+
+.main a{
+    color: white;
+    font-weight: bold;
+    border: 2px solid white;
+    text-decoration: line-through;
+    opacity: 0.4;
+    padding: 1rem 2rem;
+    margin: 150px;
+    position: relative; top: 40%;
+}
+
+.main a:hover {
+    color: white;
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.extraa {
+    background-color: lightgray;
+    height: 2px;
+
+}
+
+footer {
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.4);
+    justify-content: space-evenly;
+}
+
+footer a {
+    color: white;
+    text-decoration: line-through;
+    font-weight: bold;
+    opacity: 0.8;
+    padding: 0 2rem;
+    position: relative; left: 40%;
+
+
+}
+
+footer a:hover {
+    text-decoration: underline;
+    opacity: 1;
+}
+
+footer h2 {
+    color: white;
+    text-align: center;
+    font-size: medium;
+    text-decoration: 1px line-through;
+}

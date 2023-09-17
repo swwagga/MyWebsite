@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 5px;
+}
+
+body {
+    background-color: lightslategray;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    padding: 0rem 3rem;
+    opacity: 0.8;
+    text-decoration: line-through;
+    align-items: inline;
+    font-size: larger;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    opacity: 1;
+}
+
+.logo {
+    color: white;
+    font-size: 250%;
+    padding: 0 3rem;
+    text-decoration: 1px line-through;
+}
+
+.extra {
+    height: 2px;
+    background-color: lightgray;
+}
+
+.main {
+    height: 470px;
+    background-image: url("main-image.jpg");
+    padding: 2rem;
+    justify-content: space-between;
+}
+
+.writing {
+    color: white;
+    text-align: left;
+}
